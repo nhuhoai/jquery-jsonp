@@ -8,6 +8,7 @@ function testJsonp() { // eslint-disable-line no-unused-vars
     url: url,
     dataType: 'jsonp',
     jsonpCallback: callback,
+    crossDomain: true,
     beforeSend: function(xhr, settings) {
       console.log('beforeSend xhr', xhr);
       console.log('beforeSend settings', settings);
