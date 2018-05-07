@@ -1,0 +1,27 @@
+{
+  "name": "jquery-jsonp",
+  "version": "0.1.0",
+  "description": "jQuery.ajax() examples with JSONP format",
+  "main": "src/jquery-3.3.1.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhuhoai/jquery-jsonp.git"
+  },
+  "keywords": [
+    "jquery",
+    "jsonp"
+  ],
+  "author": "Nhu-Hoai Robert VO <nhuhoai.vo@nhuvo.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhuhoai/jquery-jsonp/issues"
+  },
+  "homepage": "https://github.com/nhuhoai/jquery-jsonp#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-jquery": "^1.0.1"
+  }
+}
